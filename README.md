@@ -2,7 +2,7 @@
 
 # ChatGPT Development Environment Setup
 
-This repository includes a Python script that automates the setup of a development environment for using ChatGPT with Python.
+This repository includes a Python script that automates the setup of a development environment for using ChatGPT with Python. This repository contains code examples and tutorials for using the OpenAI API to generate code using ChatGPT. The examples are designed to help developers get started with using the OpenAI API for code generation, and include step-by-step instructions for setting up your development environment, obtaining API credentials, and calling the API to generate code. The repository also includes sample code for integrating ChatGPT with popular IDEs and code editors.
 
 ## Installation
 
