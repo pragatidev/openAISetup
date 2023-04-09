@@ -18,6 +18,7 @@ $ cd openAISetup
 #Create a new virtual environment:
 
 $ python -m venv venv
+
 $ . venv/bin/activate
 
 #Install the required dependencies by running the command
