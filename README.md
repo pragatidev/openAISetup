@@ -20,11 +20,17 @@ Create a new virtual environment:
 $ python -m venv venv
 $ . venv/bin/activate
 
-Install the required dependencies by running the command: 
+Install the required dependencies by running the command:
+pip install openai
 pip install openai python-dotenv
 
 Add your API key to the newly created .env file.
 OPENAI_API_KEY=Your_Secret_Key
+
+run the script using below command:
+python openai_api_example.py
+
+
 ## Requirements
 
 - Python
