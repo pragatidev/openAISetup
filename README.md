@@ -13,7 +13,7 @@ Clone this repository.
 
 Navigate into the project directory:
 
-$ cd openai-quickstart-python
+$ cd openAISetup
 Create a new virtual environment:
 
 $ python -m venv venv
