@@ -23,6 +23,7 @@ $ . venv/bin/activate
 #Install the required dependencies by running the command
 
 pip install openai
+
 pip install openai python-dotenv
 
 #Add your API key to the newly created .env file.
