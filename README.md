@@ -7,7 +7,7 @@ This repository contains code examples and tutorials for using the OpenAI API to
 ## Installation
 
 Setup
-If you don’t have Python installed, https://github.com/pragatidev/openai-quickstart-python#:~:text=install%20it%20from%20here.
+If you don’t have Python installed, install it from here https://www.python.org/downloads/.
 
 Clone this repository.
 
