@@ -1,10 +1,12 @@
 import openai
-import openai_secret_manager
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Set up the OpenAI API client
-secrets = openai_secret_manager.get_secret("openai")
-api_key = secrets["api_key"]
-openai.api_key = api_key
+openai.api_key = os.getenv("OPENAI_API_KEY")
 model_engine = "text-davinci-002"
 
 # Define the prompt for the code generation task
