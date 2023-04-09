@@ -2,28 +2,28 @@
 
 # ChatGPT Development Environment Setup
 
-This repository includes a Python script that automates the setup of a development environment for using ChatGPT with Python. This repository contains code examples and tutorials for using the OpenAI API to generate code using ChatGPT. The examples are designed to help developers get started with using the OpenAI API for code generation, and include step-by-step instructions for setting up your development environment, obtaining API credentials, and calling the API to generate code. The repository also includes sample code for integrating ChatGPT with popular IDEs and code editors.
+This repository contains code examples and tutorials for using the OpenAI API to generate code using ChatGPT. The examples are designed to help developers get started with using the OpenAI API for code generation, and include step-by-step instructions for setting up your development environment, obtaining API credentials, and calling the API to generate code. The repository also includes sample code for integrating ChatGPT with popular IDEs and code editors.
 
 ## Installation
 
-To use this script, you will need to have Python and the OpenAI package installed on your system. You can download Python from the official website, and install the OpenAI package by running the following command:
+Setup
+If you don’t have Python installed, https://github.com/pragatidev/openai-quickstart-python#:~:text=install%20it%20from%20here.
 
-pip install openai
+Clone this repository.
 
+Navigate into the project directory:
 
-Once you have these requirements installed, you can download the `setup_env.py` file from this repository and save it to a directory on your computer.
+$ cd openai-quickstart-python
+Create a new virtual environment:
 
-## Usage
+$ python -m venv venv
+$ . venv/bin/activate
 
-To use the script, navigate to the directory where you saved `setup_env.py` and run the following command:
+Install the required dependencies by running the command: 
+pip install openai python-dotenv
 
-python setup_env.py --api_key <your_api_key_here>
-
-
-Replace `<your_api_key_here>` with your actual OpenAI API key. This will execute the script and set up your development environment for using ChatGPT with Python.
-
-By default, the script will create a new virtual environment named `chatgpt_env` and install the OpenAI package. You can customize the script to include additional packages or change the virtual environment name as needed.
-
+Add your API key to the newly created .env file.
+OPENAI_API_KEY=Your_Secret_Key
 ## Requirements
 
 - Python
