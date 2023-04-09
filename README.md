@@ -6,28 +6,29 @@ This repository contains code examples and tutorials for using the OpenAI API to
 
 ## Installation
 
-Setup
+#Setup
 If you don’t have Python installed, install it from here https://www.python.org/downloads/.
 
-Clone this repository.
+#Clone this repository.
 
-Navigate into the project directory:
+#Navigate into the project directory:
 
 $ cd openAISetup
 
-Create a new virtual environment:
+#Create a new virtual environment:
 
 $ python -m venv venv
 $ . venv/bin/activate
 
-Install the required dependencies by running the command:
+#Install the required dependencies by running the command
+
 pip install openai
 pip install openai python-dotenv
 
-Add your API key to the newly created .env file.
+#Add your API key to the newly created .env file.
 OPENAI_API_KEY=Your_Secret_Key
 
-run the script using below command:
+#run the script using below command:
 python openai_api_example.py
 
 
