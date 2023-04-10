@@ -32,6 +32,7 @@ pip install openai python-dotenv
 OPENAI_API_KEY=Your_Secret_Key
 
 #run the script using below command:
+
 python openai_api_example.py
 
 
